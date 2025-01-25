@@ -14,11 +14,11 @@
 # Contents
 - [Overview](#Overview)
 - [Abstract](#Abstract)
-- [Key Features](#Key Features) 
+- [Key Features](#Key-Features) 
 - [Data](#Data) 
-- [Data Insights](#Data Insights) 📊
-- [Project Structure](#Project Structure) 
-- [Usage Instructions](#Usage Instructions)
+- [Data Insights](#Data-Insights) 📊
+- [Project Structure](#Project-Structure) 
+- [Usage Instructions](#Usage-Instructions)
 
 ## Overview
 something with images
