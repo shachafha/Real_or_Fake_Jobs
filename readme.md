@@ -1,7 +1,17 @@
 <div align="center">
-  <img src="./images/real.jpg" alt="Real Job" width="150" height="150" style="vertical-align: middle;"> 
-  <h1>Detecting Fake Job Listings</h1>
-  <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150" style="vertical-align: middle;">
+  <table style="border: 0; border-spacing: 0;">
+    <tr>
+      <td style="padding-right: 10px;">
+        <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
+      </td>
+      <td>
+        <h1>Detecting Fake Job Listings</h1>
+      </td>
+      <td style="padding-left: 10px;">
+        <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
+      </td>
+    </tr>
+  </table>
 </div>
 
 <p align="center">
