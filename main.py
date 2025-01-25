@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import random
 
 # Set page configuration
 st.set_page_config(page_title="Real Or Fake", layout="wide")
@@ -9,7 +8,7 @@ st.set_page_config(page_title="Real Or Fake", layout="wide")
 st.markdown(f"<h1 class='rtl'>Real Or Fake</h1>", unsafe_allow_html=True)
 
 # Load the data
-df = pd.read_csv('pre_proccessed_data_for_second_stage.csv')
+df = pd.read_csv('final_labeled_data.csv')
 
 # Rename columns for user-friendly display
 df.rename(columns={
@@ -23,12 +22,9 @@ df.rename(columns={
     'prediction': 'Real Or Fake'
 }, inplace=True)
 
-# Add columns 'Real Or Fake' and 'Confidence' with random values
-df['Real Or Fake'] = [random.choice([0, 1]) for _ in range(len(df))]
-df['Confidence'] = [random.random() for _ in range(len(df))]
 
 # Replace numeric values in 'Real Or Fake' column with descriptive labels
-df['Real Or Fake'] = df['Real Or Fake'].apply(lambda x: 'Real' if x == 1 else 'Fake')
+df['Real Or Fake'] = df['Real Or Fake'].apply(lambda x: 'Real' if int(x) == 0 else 'Fake')
 
 # Rearrange columns
 df = df[['Job ID', 'Title', 'Company Name', 'Location', 'Salary', 'Job Type', 'Job URL', 'Real Or Fake']]
