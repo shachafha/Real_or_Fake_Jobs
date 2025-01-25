@@ -1,20 +1,18 @@
-<p align="center">
-  <img src="./images/real.jpg" alt="Real" width="100" height="100" style="display:inline-block;">
-  <h1 align="center" style="font-weight:bold; font-size:2.5em; display:inline-block; margin: 0 20px;">
+<h1 style="text-align:center; font-weight:bold; font-size:2.5em; display:flex; justify-content:center; align-items:center;">
+    <img src="./images/real.jpg" alt="Logo" width="150" height="150" style="margin-right: 10px;">
     Detecting Fake Job Listings
-  </h1>
-  <img src="./images/fake.jpg" alt="Fake" width="100" height="100" style="display:inline-block;">
-</p>
+    <img src="./images/fake.jpg" alt="Logo" width="150" height="150" style="margin-left: 10px;">
+</h1>
 
-<p align="center" style="text-align:center;font-size:1em;">
+<p align='center' style="text-align:center;font-size:1em;">
     <a>Shani Angel</a>&nbsp;,&nbsp;
     <a>Saar Manshrov</a>&nbsp;,&nbsp;
-    <a>Nitzan Manor</a>&nbsp;,&nbsp;
-    <a>Shachaf Chaviv</a><br/> 
+    <a >Nitzan Manor</a>&nbsp;&nbsp;
+    <a>Shachaf Chaviv</a>&nbsp;&nbsp;
+    <br/> 
     Technion - Israel Institute of Technology<br/> 
 </p>
 
-<br>
 
 
 
