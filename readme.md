@@ -11,13 +11,19 @@
 </p>
 
 
+# Contents
+- [Overview](#Overview)
+- [Abstract](#Abstract)
+- [Key Features](#Key Features) 
+- [Data](#Data) 
+- [Data Insights](#Data Insights) 📊
+- [Project Structure](#Project Structure) 
+- [Usage Instructions](#Usage Instructions)
 
-[//]: # (# Job Listing Authenticity Detector)
+## Overview
+something with images
 
-[//]: # ()
-[//]: # (![Real Job]&#40;./images/real.jpg&#41;  )
-
-[//]: # (![Fake Job]&#40;./images/fake.jpg&#41;)
+--
 
 ## Abstract
 Fraudulent job postings pose a significant risk to job seekers, exposing them to scams, data breaches, and other forms of exploitation. This research presents a robust AI-powered framework designed to detect and mitigate deceptive job listings. Using a dataset of job postings scraped from Indeed, we employed rigorous preprocessing and leveraged big data to inform feature engineering and develop a learning-driven solution. The system is deployed in a newly designed user interface, enabling users to search for job listings and receive real-time predictions on their authenticity. This innovative tool improves transparency and user trust, offering an accessible and effective means of protecting job seekers.
@@ -38,18 +44,20 @@ Fraudulent job postings pose a significant risk to job seekers, exposing them to
 - **Big Data**: LinkedIn big data companies table for enriching features.
 - **Scraped Data**: Job postings scraped from Indeed using `ScraperAPI` or `Bright Data` proxy.
 
-### Data Preprocessing Insights
+### Data Insights
 ![Kaggle Word Count Distribution](./images/kaggle_word_count.jpeg)  
 The above visualization highlights the word count distribution in job descriptions. Fake job postings often have fewer words compared to real postings, a critical feature for model differentiation.
 
 ---
 
-## Folder Structure
+## Project Structure
 - **`scraping/`**: Contains code for scraping job postings from Indeed and exporting to Excel. Requires `ScraperAPI` API key or `Bright Data` proxy.
 - **`pre_process/`**: 
   - `FeatureEngineering.ipynb`: Integrates big data features into the dataset.
   - `FillMissingValues.ipynb`: Uses `Gemini 1.5 Flash Model` to fill missing values in scraped data.
 - **`analyse/`**: Includes notebooks for data visualization and exploratory data analysis (EDA).
+- **`models/`**: Trains and evaluates machine learning models for job posting classification.
+- **`main.py and pages/`**: Contains the user interface using streamlit for job posting classification.
 
 ---
 
@@ -68,11 +76,3 @@ The above visualization highlights the word count distribution in job descriptio
 4. **Run Models**:
    - Train and evaluate classifiers using the enriched dataset.
    - Integrate the model predictions into the user interface for real-time evaluation.
-
----
-
-## Team Members
-- Saar Manshrov
-- Shani Angel
-- Shachaf Haviv
-- Nitzan Manor
