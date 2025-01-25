@@ -1,11 +1,12 @@
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
     <h1>Detecting Fake Job Listings</h1>
-    <img src="./images/real.jpg" alt="Real Job" height="100">
-    <img src="./images/fake.jpg" alt="Fake Job" height="100">
+
 </div>
 <p align="center">
     Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br/>
     Technion - Israel Institute of Technology
+    <img src="./images/real.jpg" alt="Real Job" height="100">
+    <img src="./images/fake.jpg" alt="Fake Job" height="100">
 </p>
 
 
