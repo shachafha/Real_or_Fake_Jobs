@@ -1,22 +1,11 @@
-<div align="center" style="border: none;">
-  <table style="border-collapse: collapse;">
-    <tr>
-      <td style="padding-right: 10px;">
-        <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
-      </td>
-      <td>
-        <h1>Detecting Fake Job Listings</h1>
-      </td>
-      <td style="padding-left: 10px;">
-        <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
-      </td>
-    </tr>
-  </table>
-</div>
+![Real Job](./images/real.jpg)  Detecting Fake Job Listings  ![Fake Job](./images/fake.jpg)
+
 <p align="center">
-    Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br>
+    Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br/>
     Technion - Israel Institute of Technology
 </p>
+
+
 
 [//]: # (# Job Listing Authenticity Detector)
 
@@ -40,8 +29,9 @@ Fraudulent job postings pose a significant risk to job seekers, exposing them to
 ---
 
 ## Data
-- **Primary Dataset**: [Real or Fake Job Postings](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction) from Kaggle, containing labeled data of real and fake job postings.
-- **Supplementary Data**: LinkedIn big data companies table for enriching features.
+- **Kaggle Dataset**: [Real or Fake Job Postings](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction) from Kaggle, containing labeled data of real and fake job postings.
+- **Big Data**: LinkedIn big data companies table for enriching features.
+- **Scraped Data**: Job postings scraped from Indeed using `ScraperAPI` or `Bright Data` proxy.
 
 ### Data Preprocessing Insights
 ![Kaggle Word Count Distribution](./images/kaggle_word_count.jpeg)  
