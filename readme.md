@@ -1,27 +1,20 @@
-<div align="center">
-  <table style="border: none; border-collapse: collapse;">
+<div style="border: none;">
+  <table style="border-collapse: collapse;">
     <tr>
-      <td style="padding-right: 10px; border: none;">
+      <td style="padding-right: 10px;">
         <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
       </td>
-      <td style="border: none;">
+      <td>
         <h1>Detecting Fake Job Listings</h1>
       </td>
-      <td style="padding-left: 10px; border: none;">
+      <td style="padding-left: 10px;">
         <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
       </td>
     </tr>
   </table>
 </div>
-
-<p align="center">
-    <a>Shani Angel</a>&nbsp;,&nbsp;
-    <a>Saar Manshrov</a>&nbsp;,&nbsp;
-    <a >Nitzan Manor</a>&nbsp;&nbsp;
-    <a>Shachaf Chaviv</a><br/> 
-    Technion - Israel Institute of Technology
-</p>
-
+Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv
+Technion - Israel Institute of Technology
 
 [//]: # (# Job Listing Authenticity Detector)
 
