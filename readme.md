@@ -1,7 +1,7 @@
 <h1 style="text-align:center; font-weight:bold; font-size:2.5em; display:flex; justify-content:center; align-items:center;">
-    <img src="./images/real.jpg" alt="Logo" width="100" height="100" style="margin-right: 10px;">
-    Detecting Fake Job Listings
-    <img src="./images/fake.jpg" alt="Logo" width="100" height="100" style="margin-left: 10px;">
+    <img src="./images/real.jpg" alt="Logo" width="150" height="150" style="margin-right: 10px;">
+    <span style="vertical-align:middle;">Detecting Fake Job Listings</span>
+    <img src="./images/fake.jpg" alt="Logo" width="150" height="150" style="margin-left: 10px;">
 </h1>
 
 <p align='center' style="text-align:center;font-size:1em;">
@@ -12,6 +12,7 @@
     <br/> 
     Technion - Israel Institute of Technology<br/> 
 </p>
+
 
 
 
