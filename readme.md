@@ -1,5 +1,5 @@
 <div align="center">
-  <table style="border: 0;">
+  <table style="border: none; border-collapse: collapse;">
     <tr>
       <td style="padding-right: 10px;">
         <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
