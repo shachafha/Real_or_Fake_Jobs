@@ -1,17 +1,11 @@
-<div align="center">
-  <table style="border: 0;">
-    <tr>
-      <td style="padding-right: 10px;">
-        <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
-      </td>
-      <td>
-        <h1>Detecting Fake Job Listings</h1>
-      </td>
-      <td style="padding-left: 10px;">
-        <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
-      </td>
-    </tr>
-  </table>
+<div class="container">
+  <div class="image-container">
+    <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
+  </div>
+  <h1>Detecting Fake Job Listings</h1>
+  <div class="image-container">
+    <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
+  </div>
 </div>
 
 <p align="center">
@@ -21,6 +15,19 @@
     <a>Shachaf Chaviv</a><br/> 
     Technion - Israel Institute of Technology
 </p>
+
+<style>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+</style>
 
 [//]: # (# Job Listing Authenticity Detector)
 
