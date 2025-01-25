@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
+  <img src="./images/real.jpg" alt="Real Job" width="150" height="150" style="vertical-align: middle;"> 
   <h1>Detecting Fake Job Listings</h1>
-  <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
+  <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150" style="vertical-align: middle;">
 </div>
 
 <p align="center">
@@ -11,7 +11,6 @@
     <a>Shachaf Chaviv</a><br/> 
     Technion - Israel Institute of Technology
 </p>
-
 
 
 [//]: # (# Job Listing Authenticity Detector)
