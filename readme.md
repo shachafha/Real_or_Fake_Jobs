@@ -21,9 +21,22 @@
 - [Usage Instructions](#Usage-Instructions) 🛠️
 
 ## Overview
-something with images
 
---
+In this project, you can easily detect fake job listings.
+
+**Search for a job listing**  
+   Once you search for a job, you will see whether the listing is real or fake.
+
+   <img src="./images/job_listing_Search.png" width="500" />
+
+**Click on the job ID to see the details**  
+   After clicking on the job ID, you will be redirected to the detailed job page.
+
+   <img src="./images/fake_job.png" width="250" style="display: inline-block;" />
+   <img src="./images/real_job.png" width="250" style="display: inline-block;" />
+
+
+---
 
 ## Abstract
 Fraudulent job postings pose a significant risk to job seekers, exposing them to scams, data breaches, and other forms of exploitation. This research presents a robust AI-powered framework designed to detect and mitigate deceptive job listings. Using a dataset of job postings scraped from Indeed, we employed rigorous preprocessing and leveraged big data to inform feature engineering and develop a learning-driven solution. The system is deployed in a newly designed user interface, enabling users to search for job listings and receive real-time predictions on their authenticity. This innovative tool improves transparency and user trust, offering an accessible and effective means of protecting job seekers.
