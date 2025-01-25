@@ -7,7 +7,8 @@ df = pd.read_csv('./pre_proccessed_data_for_second_stage.csv')
 
 # Add columns 'prediction' and 'confidence' with random values
 df['prediction'] = [random.choice([0, 1]) for _ in range(len(df))]
-df['confidence'] = [random.random() for _ in range(len(df))]
+# random confidence in the internal between 0.6 and 1
+df['confidence'] = [random.uniform(0.6, 1) for _ in range(len(df))]
 # Replace NaN in the salary column with "Not Available"
 df['salary'] = df['salary'].fillna('Not Available')
 
@@ -15,10 +16,6 @@ df['salary'] = df['salary'].fillna('Not Available')
 def get_query_param(param):
     query_string = st.query_params
     return query_string.get(param, None)
-
-# Page header
-st.markdown("<h1 style='text-align: center;'>Job Insights Dashboard</h1>", unsafe_allow_html=True)
-st.markdown("<hr style='border:1px solid #ccc;'>", unsafe_allow_html=True)
 
 # Get job_id from query parameters
 job_id = get_query_param("job_id")
@@ -29,17 +26,17 @@ if job_id:
     job_details = df[df['job_id'] == int(job_id)].iloc[0]
 
     # Job title and confidence
-    st.markdown(f"### Job Details for {job_details['title']} at {job_details['company_name']}")
-    st.markdown(f"##### We are {job_details['confidence'] * 100:.1f}% sure that this job is")
+    st.markdown(f"<h3 style='text-align: center;'>Job Details for {job_details['title']} at {job_details['company_name']}</h3>", unsafe_allow_html=True)
+    st.markdown(f"<h4 style='text-align: center;'>We are {job_details['confidence'] * 100:.1f}% sure that this job is</h4>", unsafe_allow_html=True)
 
     # Display prediction with colored badge and image
-    col1, col2, col3 = st.columns([1, 6, 1])
+    col1, col2, col3 = st.columns([4, 6, 1])
     if job_details['prediction'] == 1:
         badge = "<span style='color: green; font-size: 16px;'></span>"
-        image = 'real.jpg'
+        image = './images/real.jpg'
     else:
         badge = "<span style='color: red; font-size: 16px;'></span>"
-        image = 'fake.jpg'
+        image = './images/fake.jpg'
 
     with col2:
         st.image(image, width=150)
