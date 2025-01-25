@@ -1,8 +1,12 @@
-![Real Job](./images/real.jpg)  Detecting Fake Job Listings  ![Fake Job](./images/fake.jpg)
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+   <img src="./images/real.jpg" alt="Real Job" height="100">
+   <h1>Detecting Fake Job Listings</h1>
+   <img src="./images/fake.jpg" alt="Fake Job" height="100">
+</div>
 
 <p align="center">
-    Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br/>
-    Technion - Israel Institute of Technology
+   Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br/>
+   Technion - Israel Institute of Technology
 </p>
 
 
