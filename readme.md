@@ -1,7 +1,32 @@
-# Job Listing Authenticity Detector
 
-![Real Job](./images/real.jpg)  
-![Fake Job](./images/fake.jpg)
+
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.5em"> Detecting Fake Job Listings </h1>
+
+<p align='center' style="text-align:center;font-size:1em;">
+    <a>Shani Angel</a>&nbsp;,&nbsp;
+    <a>Saar Manshrov</a>&nbsp;,&nbsp;
+    <a >Nitzan Manor</a>&nbsp;&nbsp;
+    <a>Shachaf Chaviv</a>&nbsp;&nbsp;
+    <br/> 
+    Technion - Israel Institute of Technology<br/> 
+</p>
+
+
+<br>
+<br>
+
+<p align="center">
+  <img src="./images/real.jpg" alt="Logo" width="150" height="150">
+  <img src="./images/fake.jpg" alt="Logo" width="150" height="150">
+
+
+
+[//]: # (# Job Listing Authenticity Detector)
+
+[//]: # ()
+[//]: # (![Real Job]&#40;./images/real.jpg&#41;  )
+
+[//]: # (![Fake Job]&#40;./images/fake.jpg&#41;)
 
 ## Abstract
 Fraudulent job postings pose a significant risk to job seekers, exposing them to scams, data breaches, and other forms of exploitation. This research presents a robust AI-powered framework designed to detect and mitigate deceptive job listings. Using a dataset of job postings scraped from Indeed, we employed rigorous preprocessing and leveraged big data to inform feature engineering and develop a learning-driven solution. The system is deployed in a newly designed user interface, enabling users to search for job listings and receive real-time predictions on their authenticity. This innovative tool improves transparency and user trust, offering an accessible and effective means of protecting job seekers.
