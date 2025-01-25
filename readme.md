@@ -22,7 +22,7 @@
 
 ## Overview
 
-In this project, you can easily detect fake job listings.
+Looking for a job? Be cautious – some job listings can be fake! This tool helps you quickly identify whether a job listing is real or fake. Simply search for a job and click on the listing to see detailed information.
 
 **Search for a job listing**  
    Once you search for a job, you will see whether the listing is real or fake.
