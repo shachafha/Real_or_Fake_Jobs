@@ -31,10 +31,10 @@ Looking for a job? Be cautious – some job listings can be fake! This tool help
 
 **Click on the job ID to see the details**  
    After clicking on the job ID, you will be redirected to the detailed job page.
-
-   <img src="./images/fake_job.png" width="350" style="display: inline-block;" /> <img src="./images/real_job.png" width="355" style="display: inline-block;" />
-
-
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="./images/fake_job.png" style="width: 48%; height: auto;" alt="Fake Job" />
+    <img src="./images/real_job.png" style="width: 48%; height: auto;" alt="Real Job" />
+</div>
 ---
 
 ## Abstract
