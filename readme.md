@@ -1,5 +1,5 @@
 <div align="center">
-  <table style="border: 0; border-spacing: 0;">
+  <table style="border: 0;">
     <tr>
       <td style="padding-right: 10px;">
         <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
@@ -21,7 +21,6 @@
     <a>Shachaf Chaviv</a><br/> 
     Technion - Israel Institute of Technology
 </p>
-
 
 [//]: # (# Job Listing Authenticity Detector)
 
