@@ -1,4 +1,4 @@
-<div style="border: none;">
+<div align="center" style="border: none;">
   <table style="border-collapse: collapse;">
     <tr>
       <td style="padding-right: 10px;">
@@ -13,8 +13,10 @@
     </tr>
   </table>
 </div>
-Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv
-Technion - Israel Institute of Technology
+<p align="center">
+    Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br>
+    Technion - Israel Institute of Technology
+</p>
 
 [//]: # (# Job Listing Authenticity Detector)
 
