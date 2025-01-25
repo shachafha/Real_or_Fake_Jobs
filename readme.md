@@ -32,7 +32,7 @@ In this project, you can easily detect fake job listings.
 **Click on the job ID to see the details**  
    After clicking on the job ID, you will be redirected to the detailed job page.
 
-   <img src="./images/fake_job.png" width="500" style="display: inline-block;" /> <img src="./images/real_job.png" width="500" style="display: inline-block;" />
+   <img src="./images/fake_job.png" width="350" style="display: inline-block;" /> <img src="./images/real_job.png" width="350" style="display: inline-block;" />
 
 
 ---
