@@ -27,7 +27,7 @@ In this project, you can easily detect fake job listings.
 **Search for a job listing**  
    Once you search for a job, you will see whether the listing is real or fake.
 
-   <img src="./images/job_listing_Search.png" width="500" />
+   <img src="./images/Job_Listing_Search.png" width="500" />
 
 **Click on the job ID to see the details**  
    After clicking on the job ID, you will be redirected to the detailed job page.
