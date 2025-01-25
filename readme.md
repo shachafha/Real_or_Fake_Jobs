@@ -16,7 +16,7 @@
 - [Abstract](#Abstract) 📝
 - [Key Features](#Key-Features) 🌟
 - [Data](#Data) 🗂️
- - [Data Insights](#Data-Insights) 📊
+  - [Data Insights](#Data-Insights) 📊
 - [Project Structure](#Project-Structure) 🏗️
 - [Usage Instructions](#Usage-Instructions) 🛠️
 
