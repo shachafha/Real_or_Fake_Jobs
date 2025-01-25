@@ -35,6 +35,7 @@ Looking for a job? Be cautious – some job listings can be fake! This tool help
     <img src="./images/fake_job.png" style="width: 48%; height: auto;" alt="Fake Job" />
     <img src="./images/real_job.png" style="width: 48%; height: auto;" alt="Real Job" />
 </div>
+
 ---
 
 ## Abstract
@@ -74,6 +75,7 @@ The above visualization highlights the word count distribution in job descriptio
 ---
 
 ## Usage Instructions
+The notebooks in this project are designed to be run on Data Bricks.
 1. **Set Up Scraping**:
    - Obtain an API key from `ScraperAPI` or credentials for `Bright Data` proxy.
    - Run the scripts in the `scraping/` folder to collect job postings.
