@@ -3,10 +3,10 @@
 
 </div>
 <p align="center">
-    Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Chaviv<br/>
+    Shani Angel, Saar Manshrov, Nitzan Manor, Shachaf Haviv<br/>
     Technion - Israel Institute of Technology
     <br/>
-    <img src="./images/real.jpg" alt="Real Job" height="100">
+    <img src="./images/real.jpg" alt="Real Job" height="110">
     <img src="./images/fake.jpg" alt="Fake Job" height="100">
 </p>
 
