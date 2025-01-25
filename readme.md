@@ -1,13 +1,13 @@
 <div align="center">
   <table style="border: none; border-collapse: collapse;">
     <tr>
-      <td style="padding-right: 10px;">
+      <td style="padding-right: 10px; border: none;">
         <img src="./images/real.jpg" alt="Real Job" width="150" height="150">
       </td>
-      <td>
+      <td style="border: none;">
         <h1>Detecting Fake Job Listings</h1>
       </td>
-      <td style="padding-left: 10px;">
+      <td style="padding-left: 10px; border: none;">
         <img src="./images/fake.jpg" alt="Fake Job" width="150" height="150">
       </td>
     </tr>
@@ -21,6 +21,7 @@
     <a>Shachaf Chaviv</a><br/> 
     Technion - Israel Institute of Technology
 </p>
+
 
 [//]: # (# Job Listing Authenticity Detector)
 
