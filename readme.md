@@ -70,7 +70,7 @@ The above visualization highlights the word count distribution in job descriptio
   - `FillMissingValues.ipynb`: Uses `Gemini 1.5 Flash Model` to fill missing values in scraped data.
 - **`analyse/`**: Includes notebooks for data visualization and exploratory data analysis (EDA).
 - **`models/`**: Trains and evaluates machine learning models for job posting classification.
-- **`main.py and pages/`**: Contains the user interface using streamlit for job posting classification.
+- **`main.py and pages/`**: Contains the user interface using streamlit for job posting classification. To run on local machine install streamlit and run `streamlit run main.py`.
 
 ---
 
