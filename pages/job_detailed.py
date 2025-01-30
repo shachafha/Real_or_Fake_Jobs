@@ -48,7 +48,7 @@ if job_id:
         </div>
     """, unsafe_allow_html=True)
     # Warning for fake jobs
-    if job_details['prediction'] == 0:
+    if job_details['prediction'] == 1:
         st.markdown(f"<p style='color: red; font-size: 14px;'><strong>🚫 Apply at your own risk! 🚫</strong></p>", unsafe_allow_html=True)
 
     # Scrollable Job Description with enhanced styling
